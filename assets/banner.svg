@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e14" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7928CA" />
+      <stop offset="50%" stop-color="#00DFD8" />
+      <stop offset="100%" stop-color="#FF0080" />
+    </linearGradient>
+    
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00DFD8" />
+      <stop offset="100%" stop-color="#7928CA" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00DFD8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00DFD8" stop-opacity="0" />
+    </radialGradient>
+    
+    <style>
+      @keyframes scanline {
+        0% { transform: translateY(0px); opacity: 0.2; }
+        50% { opacity: 0.8; }
+        100% { transform: translateY(220px); opacity: 0.2; }
+      }
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.03); opacity: 1; }
+        100% { transform: scale(1); opacity: 0.8; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+        100% { transform: translateY(0px); }
+      }
+      .scanner-beam {
+        animation: scanline 4s ease-in-out infinite alternate;
+      }
+      .glowing-shield {
+        animation: float 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg-grad)" rx="16" />
+  
+  <!-- Subtle Grid Overlay -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <path d="M 0,50 L 1200,50 M 0,100 L 1200,100 M 0,150 L 1200,150 M 0,200 L 1200,200 M 0,250 L 1200,250 M 0,300 L 1200,300 M 0,350 L 1200,350" />
+    <path d="M 100,0 L 100,400 M 200,0 L 200,400 M 300,0 L 300,400 M 400,0 L 400,400 M 500,0 L 500,400 M 600,0 L 600,400 M 700,0 L 700,400 M 800,0 L 800,400 M 900,0 L 900,400 M 1000,0 L 1000,400 M 1100,0 L 1100,400" />
+  </g>
+
+  <!-- Ambient Glow Behind Icon -->
+  <circle cx="200" cy="200" r="160" fill="url(#glow)" />
+
+  <!-- Dynamic Shield / Scanner Graphic -->
+  <g class="glowing-shield" transform="translate(110, 100)">
+    <!-- Shield Outline -->
+    <path d="M 90 20 L 160 50 L 160 120 C 160 170 90 210 90 210 C 90 210 20 170 20 120 L 20 50 Z" 
+          fill="none" stroke="url(#accent-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Lock / Keyhole Symbol -->
+    <path d="M 90 75 C 80 75 72 83 72 93 L 72 105 L 65 105 L 65 145 L 115 145 L 115 105 L 108 105 L 108 93 C 108 83 100 75 90 75 Z M 90 85 C 94.5 85 98 88.5 98 93 L 98 105 L 82 105 L 82 93 C 82 88.5 85.5 85 90 85 Z" 
+          fill="url(#shield-grad)"/>
+  </g>
+
+  <!-- Animated Laser Beam Effect -->
+  <g class="scanner-beam">
+    <line x1="80" y1="80" x2="320" y2="80" stroke="#00DFD8" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+    <polygon points="80,80 320,80 300,100 100,100" fill="#00DFD8" opacity="0.15" />
+  </g>
+
+  <!-- Title and Description -->
+  <text x="360" y="150" class="title-text" font-size="46" fill="#FFFFFF">Awesome Secret Scanning</text>
+  <text x="360" y="210" class="title-text" font-size="46" fill="url(#accent-grad)">Platform Ecosystem</text>
+  
+  <text x="360" y="265" class="sub-text" font-size="20" fill="#8B949E">Curated Directory of Enterprise SaaS &amp; Open-Source Security Tools</text>
+  <text x="360" y="295" class="sub-text" font-size="16" fill="#58A6FF">Detect Hardcoded API Keys • Credentials • Tokens • Leaked Secrets in CI/CD</text>
+
+  <!-- Bottom Accent Bar -->
+  <rect x="0" y="392" width="1200" height="8" fill="url(#accent-grad)" rx="4" />
+</svg>
