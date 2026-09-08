@@ -61,45 +61,45 @@ This repository tracks notable **SaaS platforms** and **open-source security pro
 
 ## ⚡ Open-Source GitHub Projects
 
-> 🔓 **Sorted by GitHub Stars (Descending)**. Open-source scanners provide the core detection foundation across modern CI/CD pipelines.
+> 🔓 **Sorted by GitHub_Stars (Descending)**. Open-source scanners provide the core detection foundation across modern CI/CD pipelines.
 
-- **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+- **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
   Comprehensive open-source security scanner by Aqua Security featuring secret detection modules alongside container and IaC vulnerability scanning.
 
-- **[Gitleaks](https://github.com/gitleaks/gitleaks)** [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)  
+- **[Gitleaks](https://github.com/gitleaks/gitleaks)** [![GitHub_Stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)  
   Fast, lightweight, MIT-licensed secret scanner optimized for git repositories, pre-commit hooks, and CI/CD pipelines with customizable TOML rules.
 
-- **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)  
+- **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** [![GitHub_Stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)  
   Leading open-source secret scanner detecting credentials via high-entropy analysis and regex, verifying findings with live API checks against 800+ providers.
 
-- **[Semgrep](https://github.com/semgrep/semgrep)** [![GitHub stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)  
+- **[Semgrep](https://github.com/semgrep/semgrep)** [![GitHub_Stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)  
   Fast polyglot static analysis engine supporting custom semantic secret patterns, AST parsing, and secret detection rules across 30+ programming languages.
 
-- **[git-secrets](https://github.com/awslabs/git-secrets)** [![GitHub stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=social&color=white)](https://github.com/awslabs/git-secrets/stargazers)  
+- **[git-secrets](https://github.com/awslabs/git-secrets)** [![GitHub_Stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=social&color=white)](https://github.com/awslabs/git-secrets/stargazers)  
   Classic open-source scanner from AWS Labs designed to prevent committing passwords, AWS access keys, and private credentials into git history.
 
-- **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
+- **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub_Stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
   Static code analysis tool for Infrastructure as Code (IaC) with built-in detection for hardcoded secrets in Terraform, CloudFormation, and Kubernetes.
 
-- **[detect-secrets](https://github.com/Yelp/detect-secrets)** [![GitHub stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=social&color=white)](https://github.com/Yelp/detect-secrets/stargazers)  
+- **[detect-secrets](https://github.com/Yelp/detect-secrets)** [![GitHub_Stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=social&color=white)](https://github.com/Yelp/detect-secrets/stargazers)  
   Baseline-oriented secret scanner by Yelp—ideal for large legacy codebases where existing findings are baselined and only new secrets are flagged.
 
-- **[ggshield](https://github.com/GitGuardian/ggshield)** [![GitHub stars](https://img.shields.io/github/stars/GitGuardian/ggshield?style=social&color=white)](https://github.com/GitGuardian/ggshield/stargazers)  
+- **[ggshield](https://github.com/GitGuardian/ggshield)** [![GitHub_Stars](https://img.shields.io/github/stars/GitGuardian/ggshield?style=social&color=white)](https://github.com/GitGuardian/ggshield/stargazers)  
   GitGuardian's open-source CLI engine for scanning local git repositories, developer pre-commit hooks, and CI/CD pipelines for 400+ secret types.
 
-- **[git-hound](https://github.com/tillson/git-hound)** [![GitHub stars](https://img.shields.io/github/stars/tillson/git-hound?style=social&color=white)](https://github.com/tillson/git-hound/stargazers)  
+- **[git-hound](https://github.com/tillson/git-hound)** [![GitHub_Stars](https://img.shields.io/github/stars/tillson/git-hound?style=social&color=white)](https://github.com/tillson/git-hound/stargazers)  
   Batch secret sniffer for GitHub repository discovery using pattern matching, regex, and sensitive key detection for security researchers.
 
-- **[Secretlint](https://github.com/secretlint/secretlint)** [![GitHub stars](https://img.shields.io/github/stars/secretlint/secretlint?style=social&color=white)](https://github.com/secretlint/secretlint/stargazers)  
+- **[Secretlint](https://github.com/secretlint/secretlint)** [![GitHub_Stars](https://img.shields.io/github/stars/secretlint/secretlint?style=social&color=white)](https://github.com/secretlint/secretlint/stargazers)  
   Pluggable secret linting tool that prevents credentials, API tokens, and private keys from landing in git commits and npm packages.
 
-- **[Tartufo](https://github.com/godaddy/tartufo)** [![GitHub stars](https://img.shields.io/github/stars/godaddy/tartufo?style=social&color=white)](https://github.com/godaddy/tartufo/stargazers)  
+- **[Tartufo](https://github.com/godaddy/tartufo)** [![GitHub_Stars](https://img.shields.io/github/stars/godaddy/tartufo?style=social&color=white)](https://github.com/godaddy/tartufo/stargazers)  
   GoDaddy's Python-based secret scanner searching git repositories for high-entropy strings and secret signatures without requiring a full git clone.
 
-- **[Whispers](https://github.com/skyscanner/whispers)** [![GitHub stars](https://img.shields.io/github/stars/skyscanner/whispers?style=social&color=white)](https://github.com/skyscanner/whispers/stargazers)  
+- **[Whispers](https://github.com/skyscanner/whispers)** [![GitHub_Stars](https://img.shields.io/github/stars/skyscanner/whispers?style=social&color=white)](https://github.com/skyscanner/whispers/stargazers)  
   Static code analysis tool by Skyscanner designed to parse structured text files (YAML, JSON, XML, Dockerfiles) and detect hardcoded secrets.
 
-- **[git-secret-scanner](https://github.com/padok-team/git-secret-scanner)** [![GitHub stars](https://img.shields.io/github/stars/padok-team/git-secret-scanner?style=social&color=white)](https://github.com/padok-team/git-secret-scanner/stargazers)  
+- **[git-secret-scanner](https://github.com/padok-team/git-secret-scanner)** [![GitHub_Stars](https://img.shields.io/github/stars/padok-team/git-secret-scanner?style=social&color=white)](https://github.com/padok-team/git-secret-scanner/stargazers)  
   Community orchestrator tool running multiple open-source engines (Gitleaks, TruffleHog) concurrently to maximize secret detection coverage.
 
 ---
