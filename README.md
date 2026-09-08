@@ -42,59 +42,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[GitGuardian](https://www.gitguardian.com/)**  
-
-  Leading enterprise secrets detection platform with broad coverage across code, CI/CD, collaboration tools, and public monitoring, plus remediation workflows and honeytokens.
-
-
-
-- **[TruffleHog (Truffle Security commercial offerings)](https://trufflesecurity.com/)**  
-
-  Commercial platform and support built around the popular open-source TruffleHog engine, adding enterprise features, scale, and workflow integrations.
-
-
-
-- **[SpectralOps (Check Point)](https://spectralops.io/)**  
-
-  Secrets and misconfiguration scanning platform often delivered as part of broader cloud and code security suites.
-
-
-
-- **[Cycode](https://cycode.com/)**  
-
-  Application security platform that includes secrets detection alongside broader pipeline and code security capabilities.
-
-
-
-- **[GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)**  
-
-  Native secret scanning and push protection available through GitHub Advanced Security, with partner validity checks for many secret types.
-
-
-
-- **[GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)**  
-
-  Built-in secret detection capabilities in GitLab that scan repositories and pipelines for leaked credentials.
-
-
-
-- **[Doppler Secret Scanner / secrets tooling](https://www.doppler.com/)**  
-
-  Secrets management platform that also provides scanning and detection features to prevent secrets from landing in code.
-
-
-
-- **[Checkmarx Secrets, Legit Security](https://checkmarx.com/)**  
-
-  Secrets detection modules within broader ASPM / code-security platforms focused on enterprise governance and risk prioritization.
-
-
-
-- **[Other commercial secret scanning platforms](https://www.gitguardian.com/)**  
-
-  Additional vendors offering multi-repo scanning, historical analysis, and integration with ticketing or rotation workflows.
+| Platform / Product | Description | Starting Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[GitGuardian](https://www.gitguardian.com/)** | Leading enterprise secrets detection platform with broad coverage across code, CI/CD, collaboration tools, and public monitoring, plus remediation workflows and honeytokens. | $5,500/year (Business plan starting price for 25 developer block, ~$18.33/dev/month) | Free forever for up to 25 contributing developers (10,000 API calls/mo); 30-day free trial for Business features |
+| **[TruffleHog (Truffle Security)](https://trufflesecurity.com/)** | Commercial platform and support built around the popular open-source TruffleHog engine, adding enterprise features, scale, and workflow integrations. | Free OSS engine; Enterprise tier starts at ~$10,000/year base contract | Free forever for Open-Source CLI engine (unlimited local/repo scans); 14-day free trial for Enterprise features |
+| **[SpectralOps (Check Point)](https://spectralops.io/)** | Secrets and misconfiguration scanning platform delivered as part of broader cloud and code security suites. | Starts at ~$10,000/year ($1,000/month baseline enterprise tier) | 30-day free trial via Check Point Infinity Portal with full scanner access |
+| **[Cycode](https://cycode.com/)** | Application security platform that includes secrets detection alongside broader pipeline and code security capabilities. | $360/monitored developer/year ($30/dev/month starting tier baseline) | 14-day free trial (upon request/POC) + free standalone Cygives / Source Code Leakage tools |
+| **[GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)** | Native secret scanning and push protection available through GitHub Advanced Security, with partner validity checks for many secret types. | $19/active committer/month (Secret Protection for private repos) | Free forever for all public repositories on GitHub.com; 30-day free trial for private repos |
+| **[GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)** | Built-in secret detection capabilities in GitLab that scan repositories and pipelines for leaked credentials. | $0/user/month (Free plan) / $29/user/month (GitLab Premium) | Free forever on GitLab Free tier (includes 400 CI/CD compute minutes/month); 30-day free trial for Ultimate |
+| **[Doppler Secret Scanner](https://www.doppler.com/)** | Secrets management platform providing continuous scanning and detection features to prevent secrets from landing in code. | $21/user/month (Team Plan) / $7/user/month (annual rate) | Free forever for up to 3 users (Developer Plan with CLI & 10 projects limit) |
+| **[Checkmarx Secrets](https://checkmarx.com/)** | Secrets detection module within broader Checkmarx One ASPM / code-security platform focused on enterprise governance and risk prioritization. | Starts at ~$30,000/year enterprise contract baseline minimum | 30-day free trial / Proof of Concept (PoC) upon request & free limited VS Code extension |
+| **[Legit Security](https://www.legitsecurity.com/)** | Enterprise application security posture management (ASPM) and secrets detection platform covering code, pipelines, and developer workflows. | Starts at ~$15,000/year enterprise contract baseline (~$120–$150/dev/year) | 14-day free trial for Secrets Detection & VibeGuard (upon request) |
 
 
 
